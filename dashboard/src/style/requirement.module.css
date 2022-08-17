@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.labeledit{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 6rem;
+    color: #0C6A9E;
+    }
+.selected{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 30px;
+    /* margin-left: 4rem; */
+    color: #018C70;
+}
+
+.notselected{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+line-height: 30px;
+ /* margin-left: 4rem; */
+
+color: #EC5D5D;
+}
+.arrow{
+height:10px;
+width:10px ;
+}
+.number{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 30px;
+    
+    color: #494949;
+}

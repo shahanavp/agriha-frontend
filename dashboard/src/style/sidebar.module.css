@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+.main {
+  padding: 1rem;
+  width: 100%;
+padding-bottom: 14.7rem;
+  background-color: #f7f7f7;
+}
+.logo {
+  width: 100px;
+  height: 45px;
+  margin-left: 1rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.profilePic {
+  border-radius: 50%;
+  margin-right: 1rem;
+  height: 50px;
+  width: 50px;
+}
+.profileName {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileName > p {
+  font-size: 10px;
+  color: #909090;
+  font-weight: 800;
+}
+.profileName > h4 {
+  letter-spacing: 0.025em;
+  line-height: 130.69%;
+  background: linear-gradient(90.61deg, #018c70 2.83%, #03346c 80.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+.profileDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+.profileSubIcon {
+  margin-right: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+.profileSubLabel {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* pages section */
+
+.pages {
+  margin-bottom: 0.5rem;
+}
+.pagesHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.upicon {
+  display: none;
+}
+.linkComponent {
+  display: none;
+}
+
+.pagesLink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #494646;
+  cursor: pointer;
+}
+.pagesLink > img {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 1rem;
+}
+.pagesLinkName {
+  margin-left: 1rem;
+  font-size: 10px;
+  font-weight: 800;
+}
+.borderBottomLine {
+  border-bottom: 1px #e2e2e2 solid;
+  margin-left: 1rem;
+}
+.borderLeft {
+  border-left: 3px #018c70 solid;
+  color: #018c70;
+}
+
+/* *********** */
+
+/* **** status indicators ****** */
+
+.statusIndicators {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
+  margin-left: 1rem;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+/* ********************************/
+
+/************ footer ***************/
+
+
+.footerSpan {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  margin-left: 1rem;
+}
+
+.footerSpan > img {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+}
+.footerLabel {
+  font-size: 10px;
+  font-weight: 800;
+  color: #494646;
+}
+.footerLabelLogout {
+  font-size: 10px;
+  font-weight: 800;
+  color: #0c6a9e;
+}
+/****************************************/

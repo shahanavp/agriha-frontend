@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.maindiv{
+    background: #F7F7F7;
+    border-radius: 4px;
+    margin: 1rem;
+    width:98%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.labelchoosedate{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+     padding:1rem ;
+    color: #121212;
+}
+.datepicker{
+    display:flex;
+    
+    /* background-color: red; */
+}
+.sort{
+    display:flex;
+    align-items: center;
+    margin-left: 1rem;
+   
+}
+.labelsort{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+text-decoration-line: underline;
+color: #828282;
+margin-left: 0.3rem;
+}
+.customercare{
+    display: flex;
+    align-items: center;
+    margin-left: 19rem;
+   /* justify-content: space-between; */
+}
+.labelcustomercare{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 30px;
+margin-left: 2px;
+color: #A7A4A4;
+}

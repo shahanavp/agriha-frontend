@@ -1,0 +1,14 @@
+.maindiv{
+    /* background-color: #018C70; */
+    /* background-image: linear-gradient(to bottom right, #018C70,grey); */
+    /* background-image:  linear-gradient(to bottom right, #018C70 17.04%, grey 65.48%); */
+    background: url("/public/assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3.5rem 9rem;
+    }
+    .addon{
+        background-color:white;
+        padding: 1rem;
+        border-radius: 6px;
+    }

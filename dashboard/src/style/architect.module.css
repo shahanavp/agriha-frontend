@@ -1,0 +1,129 @@
+.maindiv{
+    background: #F7F7F7;
+border-radius: 6px;
+padding: 2rem;
+margin: 1rem;
+}
+.architect{
+    /* background-color: red; */
+    border-bottom: 1px solid #E7E7E7;
+}
+.labelarchitect{
+    font-weight:bold;
+    font-size:large;
+    line-height: 35px;
+    
+    color: #3E3E3E;
+} 
+.labeldescription{
+    font-weight: 400;
+    font-size: x-small;
+    line-height: 144.69%;
+    /* identical to box height, or 26px */
+    
+    margin-bottom: 0.5rem;
+    color: #827F7F;
+}  
+.card{
+    background: #FFFFFF;
+border: 1px solid #E2E2E2;
+border-radius: 6px;
+margin-top: 2rem;
+width:34%;
+}
+.Architectdetails{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    border-bottom: 1px solid #E7E7E7;;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.labelname{
+    font-weight: bolder;
+    font-size: small;
+    line-height: 29px;
+    
+    color: #3E3E3E;
+}
+.labelarch{
+    font-weight: 500;
+    font-size: x-small;
+    line-height: 23px;
+    
+    color: #767676;
+    
+}
+.viewbutton{
+    color:#0C6A9E;
+    border: 1px solid #0C6A9E;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 0.5rem ;
+    font-weight: bold;
+    font-size: x-small;
+   margin-left: 4.7rem;
+   /* height:1.5rem */
+}
+.description{
+    padding: 1rem;
+}
+.labeldescription{
+    font-weight: bold;
+font-size: x-small;
+line-height: 145.19%;
+/* or 32px */
+
+
+color: #4E4E4E;
+}
+.labelblue{
+    color:#0C6A9E;
+    font-weight:bolder;
+font-size: small;
+line-height: 145.19%;
+}
+.labeldescrip{
+    color:#ABAAAA;
+    font-weight:bold;
+    font-size: x-small;
+    line-height: 145.19%;
+    margin-bottom: 1rem;
+
+}
+.projectgallery{
+    /* background-color: #F7F7F7; */
+    /* background-color: red; */
+    margin: 2rem;
+    width:55%;
+
+}
+.architectgallery{
+    display: flex;
+    
+}
+.labelprojectgallery{
+    font-weight: bolder;
+font-size: small;
+line-height: 35px;
+
+color: #3E3E3E;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    margin-top: 0.5rem;
+}
+.viewmore{
+   color: #0C6A9E;
+   font-size: x-small;
+   font-weight: bold;
+
+   /* margin-top: 6rem; */
+}

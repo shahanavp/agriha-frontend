@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding: 1rem;
+    
+}
+.inputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width:70%;
+ /* background-color: red; */
+
+}
+
+/* .radiomain{
+
+   display:flex;
+    align-items: center;
+    justify-content: center; 
+} */
+
+
+
+.radiomain{
+    position: relative;
+      cursor: pointer;
+}
+.radiomain:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    
+    border: 2px solid #EEEEEE; 
+    background-color:white;
+}
+.radiomain:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    background: linear-gradient(180deg, #018C70 0%, #0C6A9E 91.98%);
+   
+    
+;
+}
+.radiomain:checked:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 5px;
+    border: solid white;
+
+    border-width: 0 1.5px 1.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+
+.radiomain:checked + .input {
+    background: #EEF4F8;
+}
+
+.input{
+    width:35rem;
+    height:2.5rem;
+    background: #F3F3F3;
+border-radius: 8px;
+border:none;
+display: flex;
+align-items: center;
+margin-left:1rem;
+}
+.input > p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+line-height: 30px;
+margin-left: 1rem;
+color: #5E5E5E;
+line-height: 16px;
+
+}
+.tabledatalast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width:70%;
+    padding: 0 1rem;
+    margin-top: 10px;
+    
+}
+
+.discardbutton{
+    border: 1px solid #DB2727;
+    border-radius: 6px;
+    padding: 8px 20px;
+    color:  #C62020;
+    background-color: white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 10px;
+}
+.savebutton{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 10px;
+    padding:8px 20px;
+    color: #FFFFFF;
+    background: #018C70;
+    border: 1px solid #018C70;
+    border-radius: 6px;  
+    margin-left: 0.5rem;  
+}

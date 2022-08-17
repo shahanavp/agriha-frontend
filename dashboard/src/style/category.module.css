@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.maincategory{
+    width:99%;
+    /* background-color: red; */
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    padding-top: 20px;
+    margin:8px;
+   
+}
+.maindropdown{
+background: #018C70;
+border-radius: 6px;
+margin-left: 1rem;
+width:12rem;
+height: 2rem;
+display:flex;
+align-items: center;
+}
+.dropdownitems{
+    background: #018C70;
+/* background-color: white; */
+border-radius: 6px;
+margin-left: 1rem;
+width:12rem;
+display: none;
+
+}
+.labeldropdownitems{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 30px;
+/* color: black; */
+color: #FFFFFF;
+margin-left: 10px;
+/* border-bottom: 1px solid white; */
+
+}
+
+.labelresidence{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 30px;
+color: #FFFFFF;
+margin-left: 10px;
+
+}
+.imgbar{
+height:2rem;
+margin-left: 5rem;
+
+}
+.imgdownarrow{
+    margin-left: 1rem;
+    width:0.7rem;
+    height: 15px;
+    width: 15px;
+    /* background-color: red; */
+    /* padding: 0.5rem; */
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.description{
+    background: #F8F8F8;
+    /* background-color: red; */
+border-radius: 8px;
+height:10rem;
+width:70%;
+margin-top: 1rem;
+}
+
+.description:focus{
+outline: none;
+}
+
+.labeldescription{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 1rem;
+    color: #C7C2C2;
+}
