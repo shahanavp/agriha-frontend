@@ -31,7 +31,7 @@ function Category() {
       <div>  <Bdetailselect /> </div>
      {/* <div><Apartment /></div> */}
       {/* <div><Bdetailselect1 /></div> */}
-      
+      <p>fcvfvh</p>
     </div>
   );
 }
