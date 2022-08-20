@@ -1,19 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 .maindiv{
     width:100%;
     display:flex;
     align-items: center;
     margin:8px;
-    margin-top: 10px;
+    margin-top: 20px;
     /* background-color: red; */
 }
 
 .labelBuilddetails{
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 900;
+font-weight: 500;
 font-size:22px;
 
 display:flex;
@@ -59,8 +59,8 @@ width:15rem;
 margin-left: 1rem;
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 800;
-font-size: 15px;
+font-weight: 500;
+font-size: 14px;
 color: #8D8D8D;
 
 /* background-color: yellow; */
@@ -86,6 +86,12 @@ color: #8D8D8D;
     margin-left: 0.5rem;
     color:white;
     font-size: 10px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+/* font-size: 23px; */
+line-height: 27px;
 }
 
 .imageinline{

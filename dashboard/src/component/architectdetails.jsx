@@ -11,7 +11,7 @@ function Architectdetails() {
             {/* <img className={styles.imgsearch} src="assets/search (1).svg"/>
             <input className={styles.labelsearch} type="text" placeholder="search"/> */}
             <img className={styles.imgsearch} src="assets/search (1).svg" />
-            <p className={styles.labelsearch}>search</p>
+            <p className={styles.labelsearch}>Search architect</p>
           </div>
 
           <div className={styles.sort}>

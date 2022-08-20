@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 .labeledit{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 12px;
     line-height: 30px;
     margin-left: 6rem;
+    /* margin-left: 8.5rem; */
     color: #0C6A9E;
     }
 .selected{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 13px;
     line-height: 30px;
     /* margin-left: 4rem; */
@@ -23,7 +24,7 @@
 
     font-family: 'Roboto';
 font-style: normal;
-font-weight: 800;
+font-weight: 400;
 font-size: 13px;
 line-height: 30px;
  /* margin-left: 4rem; */

@@ -45,8 +45,11 @@ export default function Choosedate() {
               <TextField
                 {...params}
                 style={{
+                  boxSizing:"border-box",
                   borderWidth: "none",
-                  // width: "10rem",
+                  // inlineSize:"10rem",
+                  // backgroundColor:"red",
+                  width: "10rem",
                   marginLeft: "0.5rem",
                 }}
               />
@@ -66,7 +69,7 @@ export default function Choosedate() {
                 {...params}
                 style={{
                   borderWidth: "none",
-                  // width: "10rem",
+                  width: "10rem",
                   marginLeft: "1rem",
               
                 }}
@@ -74,9 +77,10 @@ export default function Choosedate() {
             )}
           />
         </LocalizationProvider>
+        <div className={styles.space}> 
         <div className={styles.sort}>
-          <img src="assets/Group 138.svg" width="25px" height="25px" />
-          <p className={styles.labelsort}>Sort</p>
+          <img src="assets/Group 138.svg" width="20px" height="20px" />
+          <a className={styles.labelsort}>Sort</a>
         </div>
         <div className={styles.customercare}>
           <img
@@ -87,6 +91,7 @@ export default function Choosedate() {
           <a href="" className={styles.labelcustomercare}>
             Customer care
           </a>
+          </div>
         </div>
       </div>
 

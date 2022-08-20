@@ -32,19 +32,17 @@ function Interiorlandscape() {
       <div className={stylesss.uploadplandiv}>
         <p className={stylesss.labeluploadplan}>Upload your plan</p>
         <div className={stylesss.fileupload}>
-        <p className={stylesss.labelnofile}>No file selected</p>
-        {/* <input type="file" className={stylesss.uploadbutton}></input> */}
-        <label for="inputTag" className={stylesss.uploadbutton}>
-  Upload file
-  <input id="inputTag" type="file" className={stylesss.hide}/>
-</label>
-      </div>
-       
+          <p className={stylesss.labelnofile}>No file selected</p>
+          {/* <input type="file" className={stylesss.uploadbutton}></input> */}
+          <label for="inputTag" className={stylesss.uploadbutton}>
+            Upload file
+            <input id="inputTag" type="file" className={stylesss.hide} />
+          </label>
+        </div>
       </div>
 
       <div className={styless.description} contentEditable>
         <p className={styless.labeldescription}>Type description here</p>
-       
       </div>
 
       <div className={styles.tabledatalast}>
@@ -55,7 +53,9 @@ function Interiorlandscape() {
             height="15px"
             width="15px"
           />
-          <a href="" className={styles.labelupload}>Document Upload</a>
+          <a href="" className={styles.labelupload}>
+            Document Upload
+          </a>
         </div>
         <div className={styles.editandvalue1}>
           {/* <p className={styles.tabledata1}>6000</p> */}

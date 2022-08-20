@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 .maindiv {
   /* background-color: yellow; */
@@ -25,22 +25,34 @@
   gap: 0.5rem;
 }
 .labelresidence {
-  font-size: large;
-  font-weight: bold;
-  line-height: 42px;
-
+  /* font-size:large;
+  font-weight:bolder; */
+  line-height: 40px;
+/* background-color: red; */
   color: #555555;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+
 }
+
+
 .imgdown {
   margin-left: 1rem;
 }
 
 .labelcontent {
   color: #827f7f;
-  font-size: x-small;
-  font-weight: bold;
+  /* font-size: x-small;
+  font-weight: bolder; */
   /* margin-top: 0.3rem; */
   margin-left: 1.2rem;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 70.69%;
 }
 .calender{
   display: flex;
@@ -75,17 +87,32 @@
   color: #018c70;
   border-radius: 4px;
   font-size: x-small;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0.5rem;
+  /* font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 23px; */
 }
 .upload {
   border-radius: 4px;
   font-size: x-small;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0.5rem;
   border: 1px solid #018c70;
   background-color: #018c70;
   color: #ffffff;
+}
+.labeluploadoc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: x-small;
+  font-weight: 400;
+  line-height: 10px;
+ 
+  
+  color: #FFFFFF;
 }
 .plan {
   display: flex;
@@ -94,21 +121,36 @@
 .inputdetails {
   background: #f8f8f8;
   border-radius: 4px;
-  height: 2rem;
+  height: 2.5rem;
   width: 15rem;
   border: none;
   color: black;
-  font-weight: bold;
-  /* margin-top: 0.3rem; */
+  /* font-weight: bold; */
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 23px;
+  /* margin-left: 0.3rem; */
 }
+.inputdetails:focus{
+  outline: none;
+  }
 .inputalignment {
-  padding: 2rem;
+  padding: 1rem;
+  padding-left: 3rem;
 }
 
 .labelinput {
   color: #929292;
-  font-size: small;
-  font-weight: bold;
+  /* font-size: small;
+  font-weight: bold; */
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
 }
 .editdetailsbutton {
   background: #ffffff;
@@ -116,10 +158,14 @@
   border-radius: 6px;
   color: #018c70;
   padding: 8px;
-  width: 6rem;
+  width: 5rem;
   /* height: 2rem; */
-  font-size: small;
-  font-weight: bold;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+
   /* margin-left: 2rem; */
 }
 .requirementlist {
@@ -129,43 +175,38 @@
 .requirementheader {
   border-bottom: 1px solid #e7e7e7;
 }
+.labellist{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 35px;
+}
 .labelcontentreq {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 50.69%;
   color: #827f7f;
-  font-size: x-small;
-  font-weight: bold;
+  /* font-size: x-small;
+  font-weight: bold; */
   margin: 0.5rem 0;
 }
-.tableheader{
 
-  font-weight: bold;
-  font-size:small;
-  line-height: 30px;
-  padding: 0.5rem;
-  color: #969696;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom:  1px solid #353535;
-}
-.tabledata{
- 
-  font-weight: bolder;
-  font-size:small;
-  line-height: 30px;
-  padding: 0.5rem;
-color: #4E4E4E;
-display: flex;
-align-items: center;
-justify-content: space-between;
-border-bottom:  1px solid #CBD6D3;
-}
+
 .selected{
   color: #018C70;
 }
 .tabledataselected{
-  font-weight: bolder;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+  /* font-weight: bolder;
   font-size:small;
-  line-height: 30px;
+  line-height: 30px; */
   padding: 0.5rem;
 color: #4E4E4E;
 border-bottom:  1px solid #CBD6D3;
@@ -183,18 +224,29 @@ align-items: center;
 justify-content: center;
 }
 .tableheader{
-  font-weight: bold;
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+  /* font-weight: bold;
   font-size:small;
-  line-height: 30px;
+  line-height: 30px; */
   padding: 0.5rem;
   color: #969696;
   border-bottom:  1px solid #353535;
 }
 .tabledata{
- 
-  font-weight: bolder;
+   
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+  /* font-weight: bolder;
   font-size:small;
-  line-height: 30px;
+  line-height: 30px; */
   padding: 0.5rem;
 color: #4E4E4E;
 border-bottom:  1px solid #CBD6D3;

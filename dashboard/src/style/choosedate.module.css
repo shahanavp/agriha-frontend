@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 .maindiv{
     background: #F7F7F7;
@@ -13,7 +13,7 @@
 .labelchoosedate{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 15px;
     line-height: 30px;
      padding:1rem ;
@@ -21,7 +21,7 @@
 }
 .datepicker{
     display:flex;
-    
+    align-items: center;
     /* background-color: red; */
 }
 .sort{
@@ -34,18 +34,19 @@
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 17px;
+font-size: 14px;
 line-height: 26px;
 /* identical to box height */
 
-text-decoration-line: underline;
+
 color: #828282;
 margin-left: 0.3rem;
 }
 .customercare{
     display: flex;
     align-items: center;
-    margin-left: 19rem;
+
+    /* margin-left: 19rem; */
    /* justify-content: space-between; */
 }
 .labelcustomercare{
@@ -56,4 +57,11 @@ margin-left: 0.3rem;
     line-height: 30px;
 margin-left: 2px;
 color: #A7A4A4;
+}
+.space{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* background-color: yellow; */
+    gap: 28rem;
 }

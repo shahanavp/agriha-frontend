@@ -7,14 +7,14 @@ import styles from "../style/projectcomponents.module.css";
 import Architect from "./architect";
 import { red } from "@mui/material/colors";
 function Projectcomponents() {
-  const [value, setValue] = React.useState(null);
+  // const [value, setValue] = React.useState(null);
   return (
     <div className={styles.maindiv}>
       <div className={styles.residenceheader}>
         <div className={styles.headerleft}>
           <div>
             <img src="assets/Ellipse 12.svg" width="10px" height="10px" />
-            <b classname={styles.labelresidence}>Residence</b>
+            <p className={styles.labelresidence }>Residence</p>
             <img
               className={styles.imgdown}
               src="assets/Vector (7).svg"
@@ -29,8 +29,10 @@ function Projectcomponents() {
         <div className={styles.headerright}>
           <button className={styles.viewbutton}>View documents</button>
           <button className={styles.upload}>
-            <img src="assets/Vector (8).svg" width="10px" height="10px" />
-            Upload documents
+            <div style={{display:"flex",alignItems:"center",gap:"0.5rem"}}>
+            <img src="assets/Vector (8).svg" width="11px" height="11px" />
+            <a className={styles.labeluploadoc} href=""> Upload documents</a>
+            </div>
           </button>
           <div className={styles.calender}>
             <img src="assets/Group 40.svg" height="25px" width="25px"/>
@@ -65,8 +67,8 @@ function Projectcomponents() {
             <p className={styles.labelinput}>Total area in sqft</p>
             <input
               type="text"
-              // placeholder="6000"
-              value="6000"
+              placeholder="6000"
+              // value="6000"
               className={styles.inputdetails}
             ></input>
           </div>
@@ -74,8 +76,8 @@ function Projectcomponents() {
             <p className={styles.labelinput}>Number of floors</p>
             <input
               type="text"
-              // placeholder="2"
-              value="2"
+              placeholder="2"
+              // value="2"
               className={styles.inputdetails}
             />
           </div>
@@ -83,8 +85,8 @@ function Projectcomponents() {
             <p className={styles.labelinput}>Number of bedrooms</p>
             <input
               type="text"
-              // placeholder="3"
-              value="3"
+              placeholder="3"
+              // value="3"
               className={styles.inputdetails}
             />
           </div>
@@ -95,8 +97,8 @@ function Projectcomponents() {
             <p className={styles.labelinput}>Number of attached bathroom</p>
             <input
               type="text"
-              // placeholder="2"
-              value="2"
+              placeholder="2"
+              // value="2"
               className={styles.inputdetails}
             />
           </div>
@@ -104,8 +106,8 @@ function Projectcomponents() {
             <p className={styles.labelinput}>Budget</p>
             <input
               type="text"
-              // placeholder="budget"
-              value="budget"
+              placeholder="Budget"
+              // value="budget"
               className={styles.inputdetails}
             />
           </div>
@@ -120,7 +122,7 @@ function Projectcomponents() {
       </div>
       <div className={styles.requirementlist}>
         <div className={styles.requirementheader}>
-          <b classname={styles.labelresidence}>Requirement List</b>
+          <p className={styles.labellist}>Requirement List</p>
           <p className={styles.labelcontentreq}>
             Lorem Ipsum has been the industry's lorem Ipsum
           </p>

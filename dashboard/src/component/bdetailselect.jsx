@@ -45,19 +45,19 @@ export default function Bdetailselect() {
           
           >
             <Tab
-              style={{ fontWeight: 300, fontSize: "11px", width: "30%" ,textColor:"linear-gradient(270deg, #018C70 7.34%, #018C70 62.02%, #0C6A9E 62.02%)"}}
+              style={{ fontWeight: "bold", fontSize: "11px", width: "30%" ,textColor:"linear-gradient(270deg, #018C70 7.34%, #018C70 62.02%, #0C6A9E 62.02%)"}}
               label="Basic details"
               // textColor="linear-gradient(270deg, #018C70 7.34%, #018C70 62.02%, #0C6A9E 62.02%)"
               value="1"
           
             />
             <Tab
-              style={{ fontWeight: 300, fontSize: "11px", width: "30%" }}
+              style={{ fontWeight: "bold", fontSize: "11px", width: "30%" }}
               label="Requirements"
               value="2"
             />
             <Tab
-              style={{ fontWeight: 300, fontSize: "11px", width: "30%" }}
+              style={{ fontWeight:"bold", fontSize: "11px", width: "30%" }}
               label="Add on service"
               value="3"
             />

@@ -43,7 +43,7 @@ export default function Apartment() {
             textColor="primary"
           >
             <Tab
-              style={{ fontWeight: 300, fontSize: "10px", width: "30%" }}
+              style={{ fontWeight: "bold", fontSize: "10px", width: "30%" }}
               label="Basic details"
               value="1"
             />

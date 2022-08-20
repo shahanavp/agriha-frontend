@@ -14,7 +14,7 @@ function Headernew() {
           <div>
             <img src="assets/Untitled-1-01 2.svg" width="80px" height="20px" />
             <p className={styles.labelimg}>
-              An initiated by <b className={styles.bold}>ARCLIF</b>{" "}
+              An initiated by <b className={styles.bold}>ARCLIF</b>
             </p>
           </div>
        

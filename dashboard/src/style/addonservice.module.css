@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 .main{
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
      padding: 1rem;
-    
+     
 }
 .inputdiv{
     display: flex;
@@ -89,12 +89,12 @@ margin-left:1rem;
 .input > p{
     font-family: 'Roboto';
 font-style: normal;
-font-weight: 800;
+font-weight: 400;
 font-size: 13px;
 line-height: 30px;
 margin-left: 1rem;
 color: #5E5E5E;
-line-height: 16px;
+line-height: 17px;
 
 }
 .tabledatalast{
@@ -104,7 +104,7 @@ line-height: 16px;
   
     width:70%;
     padding: 0 1rem;
-    margin-top: 10px;
+    margin-top: 1rem;
     
 }
 
@@ -116,20 +116,20 @@ line-height: 16px;
     background-color: white;
     font-family: 'Roboto';
 font-style: normal;
-font-weight: 800;
-font-size: 10px;
-line-height: 10px;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
 }
 .savebutton{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
-    font-size: 10px;
-    line-height: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
     padding:8px 20px;
     color: #FFFFFF;
     background: #018C70;
     border: 1px solid #018C70;
     border-radius: 6px;  
-    margin-left: 0.5rem;  
+    margin-left: 0.1rem;  
 }

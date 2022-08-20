@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 .maindiv{
     display: flex;
     align-items: center;
@@ -8,6 +10,7 @@
   height: 15rem;
 }
 .tableheader{
+
     background-color: #F5FBFF;
     width:80%;
     padding: 0 1rem;
@@ -19,8 +22,8 @@
 .labeltableheader{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 12px;
     line-height: 30px;
     align-items: center;
     color: #0C6A9E;
@@ -32,7 +35,7 @@
     .tabledata{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 11px;
     line-height: 30px;
     align-items: center;

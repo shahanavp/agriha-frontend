@@ -5,8 +5,8 @@ function Architect() {
     <div className={styles.maindiv}>
       <div className={styles.architect}>
         <p className={styles.labelarchitect}>Architect</p>
-        <p className={styles.labeldescription}>
-          Lorem Ipsum has been the industry's lorem Ipsum{" "}
+        <p className={styles.labeldescription1}>
+          Lorem Ipsum has been the industry's lorem Ipsum
         </p>
       </div>
 

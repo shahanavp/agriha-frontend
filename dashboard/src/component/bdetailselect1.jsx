@@ -38,9 +38,10 @@ export default function Bdetailselect1() {
             }}
             onChange={handleChange}
             aria-label="lab API tabs example"
+            textColor="primary"
           >
             <Tab
-              style={{ fontWeight: 300, fontSize: "10px", width: "30%" }}
+              style={{ fontWeight:"bold", fontSize: "10px", width: "30%" }}
               label="Basic details"
               value="1"
             />

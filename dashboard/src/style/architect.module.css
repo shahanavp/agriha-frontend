@@ -9,15 +9,22 @@ margin: 1rem;
     border-bottom: 1px solid #E7E7E7;
 }
 .labelarchitect{
-    font-weight:bold;
-    font-size:large;
+    /* font-weight:bold;
+    font-size:large; */
     line-height: 35px;
-    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 35px;
+    /* font-family:'Times New Roman', Times, serif; */
     color: #3E3E3E;
 } 
-.labeldescription{
+.labeldescription1{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
-    font-size: x-small;
+    font-size: 10px;
     line-height: 144.69%;
     /* identical to box height, or 26px */
     
@@ -43,6 +50,7 @@ width:34%;
     flex-direction: column;
     align-items: center;
     margin-left: 0.5rem;
+    justify-content: center;
 }
 .labelname{
     font-weight: bolder;
@@ -65,7 +73,7 @@ width:34%;
     border-radius: 4px;
     background-color: #FFFFFF;
     padding: 0.5rem ;
-    font-weight: bold;
+    font-weight: 400;
     font-size: x-small;
    margin-left: 4.7rem;
    /* height:1.5rem */
@@ -74,26 +82,38 @@ width:34%;
     padding: 1rem;
 }
 .labeldescription{
-    font-weight: bold;
+    font-weight: 400;
 font-size: x-small;
-line-height: 145.19%;
+line-height: 150.19%;
+margin-bottom:1rem;
 /* or 32px */
 
 
 color: #4E4E4E;
 }
 .labelblue{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 145.19%;
     color:#0C6A9E;
-    font-weight:bolder;
-font-size: small;
+   
+/* font-size: small; */
 line-height: 145.19%;
 }
 .labeldescrip{
     color:#ABAAAA;
-    font-weight:bold;
-    font-size: x-small;
+    /* font-weight:bold;
+    font-size: x-small; */
     line-height: 145.19%;
     margin-bottom: 1rem;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 145.19%;
 
 }
 .projectgallery{
@@ -108,9 +128,13 @@ line-height: 145.19%;
     
 }
 .labelprojectgallery{
-    font-weight: bolder;
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
 font-size: small;
 line-height: 35px;
+
 
 color: #3E3E3E;
 }
@@ -123,7 +147,12 @@ color: #3E3E3E;
 .viewmore{
    color: #0C6A9E;
    font-size: x-small;
-   font-weight: bold;
+   font-weight: 400;
+   font-family: 'Roboto';
+font-style: normal;
+/* font-weight: 400;
+font-size: 20px; */
+line-height: 45px;
 
    /* margin-top: 6rem; */
 }

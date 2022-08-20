@@ -41,15 +41,15 @@ export default function Transactiontableheader() {
             // style={{width:"50%"}}
             onChange={handleChange}
             aria-label="lab API tabs example"
-            // textColor="primary"
+            textColor="primary"
           >
             <Tab
-              style={{ fontWeight: 300, fontSize: "10px",width:"50%"}}
+              style={{ fontWeight: "bold", fontSize: "10px",width:"50%"}}
               label="Pending Transaction"
               value="1"
             />
             <Tab
-              style={{ fontWeight: 300, fontSize: "10px",width:"50%" }}
+              style={{ fontWeight: "bold", fontSize: "10px",width:"50%" }}
               label="History"
               value="2"
             />
